@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TATSUYA UEDA</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <a href="index.html">TATSUYA UEDA</a>
+    </div>
+
+    <nav>
+        <a href="works.html">WORKS</a>
+        <a href="service.html">SERVICE</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+
+</header>
+<main>
+<section class="service-page">
+
+    <h1>SERVICE</h1>
+
+    <p class="service-lead">
+        仕事に宿る美しさを、<br class="sp-only">
+        写真を通して伝える。
+    </p>
+
+    <p class="service-text">
+        作品とともに、活動や制作の風景も大切に伝えていきたい
+        作家・職人・お店をされている方へ。<br>
+        制作風景や仕事の様子、空間、手元、ポートレートなどを撮影し、
+        活動全体が伝わる写真をお届けします。
+    </p>
+    
+</section>
+
+<section class="service-contents">
+
+    <h2>撮影内容</h2>
+
+    <div class="service-grid">
+
+        <div class="service-item">
+            <img src="images/service/service01.jpg" alt="">
+            <p>作業風景</p>
+        </div>
+
+        <div class="service-item">
+            <img src="images/service/service02.jpg" alt="">
+            <p>空間</p>
+        </div>
+
+        <div class="service-item">
+            <img src="images/service/service03.jpg" alt="">
+            <p>手元・道具・素材</p>
+        </div>
+
+        <div class="service-item">
+            <img src="images/service/service04.jpg" alt="">
+            <p>人</p>
+        </div>
+
+        <div class="service-item">
+            <img src="images/service/service05.jpg" alt="">
+            <p>作品</p>
+        </div>
+
+        <div class="service-item">
+            <img src="images/service/service06.jpg" alt="">
+            <p>店舗</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="service-flow">
+
+    <h2>撮影の流れ</h2>
+
+    <div class="flow-grid">
+
+        <div class="flow-item">
+            <div class="flow-number">1</div>
+            <h3>ご相談・お問い合わせ</h3>
+            <p>
+                InstagramのDMまたは<br>
+                お問い合わせフォームから<br>
+                ご連絡ください。<br>
+                撮影内容のご相談だけでも<br>
+                お気軽にどうぞ。
+            </p>
+        </div>
+
+        <div class="flow-item">
+            <div class="flow-number">2</div>
+            <h3>打ち合わせ</h3>
+            <p>
+                オンラインで<br>
+                撮影内容や使用目的を<br>
+                お伺いします。<br>
+                活動や制作のこと、<br>
+                普段大切にしていることなども、<br>
+                ゆっくりお聞かせください。
+            </p>
+        </div>
+
+        <div class="flow-item">
+            <div class="flow-number">3</div>
+            <h3>撮影</h3>
+            <p>
+                事前の打ち合わせをもとに<br>
+                現場の空気や仕事の流れを<br>
+                大切にしながら<br>
+                撮影します。
+            </p>
+        </div>
+
+        <div class="flow-item">
+            <div class="flow-number">4</div>
+            <h3>納品</h3>
+            <p>
+                撮影から2週間以内に、<br>
+                オンラインアルバムにて<br>
+                お届けします。
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="service-price">
+
+    <h2>PRICE</h2>
+
+    <div class="price-box">
+
+        <h3>33,000円〜</h3>
+
+        <p class="price-text pc-only">
+            撮影内容や時間、場所によって料金は異なります。<br>
+            事前のお打ち合わせのうえ、お見積りをご案内します。
+        </p>
+
+        <p class="price-text sp-only">
+            撮影内容や時間、場所によって<br>
+            料金は異なります。<br>
+            事前のお打ち合わせのうえ、<br>
+            お見積りをご案内します。
+        </p>
+
+    </div>
+
+</section>
+<section class="service-contact">
+
+    <p class="pc-only">
+        撮影のご相談・お見積りは、お気軽にお問い合わせください。
+    </p>
+
+    <p class="sp-only">
+        撮影のご相談・お見積りは、<br>
+        お気軽にお問い合わせください。
+    </p>
+
+    <a href="contact.html" class="contact-button">
+        CONTACT
+    </a>
+
+</section>
+</main>
+
+<footer>
+
+    <p>© 2026 TATSUYA UEDA</p>
+
+    <a href="https://www.instagram.com/ttyued?igsh=MXZnYmhuM2h6cTIxYw%3D%3D&utm_source=qr" target="_blank">
+        Instagram
+    </a>
+
+</footer>
+
+<script type="module">
+
+import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe/dist/photoswipe-lightbox.esm.js';
+
+const lightbox = new PhotoSwipeLightbox({
+
+    gallery: '.gallery',
+
+    children: 'a',
+
+    pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe/dist/photoswipe.esm.js')
+
+});
+
+lightbox.init();
+
+</script>
+
+</body>
+</html>

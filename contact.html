@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TATSUYA UEDA</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <a href="index.html">TATSUYA UEDA</a>
+    </div>
+
+    <nav>
+        <a href="works.html">WORKS</a>
+        <a href="service.html">SERVICE</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+
+</header>
+
+<main>
+
+<section class="contact-page">
+
+    <h1>CONTACT</h1>
+
+    <p class="contact-lead">
+        撮影のご相談・ご依頼は<br>
+        お気軽にお問い合わせください。
+    </p>
+
+    <a
+        href="https://www.instagram.com/ttyued?igsh=MXZnYmhuM2h6cTIxYw%3D%3D&utm_source=qr"
+        target="_blank"
+        class="contact-button"
+    >
+        Instagram DM
+    </a>
+
+</section>
+
+</main>
+
+<footer>
+
+    <p>© 2026 TATSUYA UEDA</p>
+
+    <a href="https://www.instagram.com/ttyued?igsh=MXZnYmhuM2h6cTIxYw%3D%3D&utm_source=qr" target="_blank">
+        Instagram
+    </a>
+
+</footer>
+
+<script type="module">
+
+import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe/dist/photoswipe-lightbox.esm.js';
+
+const lightbox = new PhotoSwipeLightbox({
+
+    gallery: '.gallery',
+
+    children: 'a',
+
+    pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe/dist/photoswipe.esm.js')
+
+});
+
+lightbox.init();
+
+</script>
+
+</body>
+</html>
