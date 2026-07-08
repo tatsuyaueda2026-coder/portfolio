@@ -789,32 +789,49 @@ CONTACT
 }
 
 /* =========================
-   Privacy Policy
+   PRIVACY POLICY
 ========================= */
 
-.privacy-policy {
-    max-width: 800px;
-    margin: 120px auto;
-    padding: 0 24px;
-    line-height: 2;
+.privacy-policy{
+
+    width:86%;
+    max-width:800px;
+
+    margin:180px auto;
+
 }
 
-.privacy-policy h1 {
-    font-size: 26px;
-    font-weight: 400;
-    margin-bottom: 60px;
-    text-align: center;
+.privacy-policy h1{
+
+    font-size:13px;
+    font-weight:400;
+    letter-spacing:6px;
+
+    text-align:center;
+
+    margin-bottom:70px;
+
 }
 
-.privacy-policy h2 {
-    font-size: 22px;
-    font-weight: 500;
-    margin-top: 50px;
-    margin-bottom: 20px;
+.privacy-policy h2{
+
+    font-size:20px;
+    font-weight:400;
+
+    margin-top:60px;
+    margin-bottom:24px;
+
 }
 
-.privacy-policy p {
-    margin-bottom: 20px;
+.privacy-policy p{
+
+    font-size:16px;
+    line-height:2.2;
+
+    color:#555;
+
+    margin-bottom:20px;
+
 }
 
 /* =========================
@@ -1134,6 +1151,40 @@ nav a{
     padding:0 20px;
 
     margin-bottom:28px;
+
+}
+
+.privacy-policy{
+
+    width:90%;
+
+    margin:170px auto 100px;
+
+}
+
+.privacy-policy h1{
+
+    font-size:13px;
+    letter-spacing:6px;
+
+    margin-bottom:50px;
+
+}
+
+.privacy-policy h2{
+
+    font-size:17px;
+
+    margin-top:45px;
+    margin-bottom:18px;
+
+}
+
+.privacy-policy p{
+
+    font-size:14px;
+
+    line-height:2;
 
 }
 }
