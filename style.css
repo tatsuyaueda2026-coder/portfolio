@@ -398,6 +398,15 @@ footer a:hover{
     opacity:.6;
 
 }
+
+.footer-links{
+
+    display:flex;
+    gap:24px;
+    align-items:center;
+
+}
+
 /* ---------- GALLERY ---------- */
 
 .gallery{
@@ -779,6 +788,59 @@ CONTACT
     display:none;
 }
 
+/* =========================
+   Privacy Policy
+========================= */
+
+.privacy-policy {
+    max-width: 800px;
+    margin: 120px auto;
+    padding: 0 24px;
+    line-height: 2;
+}
+
+.privacy-policy h1 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.privacy-policy h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.privacy-policy p {
+    margin-bottom: 20px;
+}
+
+/* =========================
+CONTACT Privacy
+========================= */
+
+.privacy-note{
+
+    margin-bottom:32px;
+
+    font-size:14px;
+
+    line-height:1.8;
+
+    color:#666;
+
+}
+
+.privacy-note a{
+
+    color:inherit;
+
+    text-decoration:underline;
+
+}
+
 /* =================================
 スマホ
 ================================= */
@@ -1049,6 +1111,29 @@ nav a{
     font-size:15px;
     line-height:2;
     padding:0 20px;
+
+}
+.service-contact p{
+
+    font-size:15px;
+    line-height:2;
+    padding:0 20px;
+
+}
+
+/* ← この下に追加 */
+
+}
+
+.privacy-note{
+
+    font-size:13px;
+
+    line-height:1.8;
+
+    padding:0 20px;
+
+    margin-bottom:28px;
 
 }
 }
