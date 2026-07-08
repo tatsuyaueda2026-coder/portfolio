@@ -88,13 +88,12 @@
 import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe/dist/photoswipe-lightbox.esm.js';
 
 const lightbox = new PhotoSwipeLightbox({
+  gallery: '.gallery',
+  children: 'a',
 
-    gallery: '.gallery',
+  preload: [2, 2],
 
-    children: 'a',
-
-    pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe/dist/photoswipe.esm.js')
-
+  pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe/dist/photoswipe.esm.js')
 });
 
 lightbox.init();
