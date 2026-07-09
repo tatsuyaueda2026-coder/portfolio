@@ -858,6 +858,46 @@ CONTACT Privacy
 
 }
 
+.normal-price{
+
+    font-size:18px;
+
+    color:#777;
+
+    margin-bottom:18px;
+
+}
+
+.normal-price span{
+
+    text-decoration:line-through;
+
+}
+
+.campaign-title{
+
+    font-size:18px;
+
+    letter-spacing:2px;
+
+    margin-bottom:18px;
+
+    color:#444;
+
+}
+
+.campaign-note{
+
+    margin-top:30px;
+
+    font-size:14px;
+
+    line-height:2;
+
+    color:#777;
+
+}
+
 /* =================================
 スマホ
 ================================= */
@@ -1185,6 +1225,25 @@ nav a{
     font-size:14px;
 
     line-height:2;
+
+}
+.normal-price{
+
+    font-size:15px;
+
+}
+
+.campaign-title{
+
+    font-size:15px;
+
+}
+
+.campaign-note{
+
+    font-size:13px;
+
+    line-height:1.9;
 
 }
 }
