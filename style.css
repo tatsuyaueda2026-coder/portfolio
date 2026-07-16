@@ -654,6 +654,98 @@ footer a:hover {
     line-height: 2.2;
 }
 
+.contact-or {
+    margin: 60px 0 40px;
+
+    color: #777;
+
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.contact-form {
+    margin-top: 40px;
+
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 32px;
+}
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+
+    padding: 14px 16px;
+
+    border: 1px solid #d8d8d8;
+
+    background: #fff;
+
+    font-size: 15px;
+
+    font-family: inherit;
+
+    box-sizing: border-box;
+
+    transition: border-color .2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+
+    border-color: #888;
+}
+
+.form-group textarea {
+    resize: vertical;
+
+    min-height: 220px;
+
+    line-height: 1.8;
+}
+
+.contact-submit {
+    display: block;
+
+    width: 220px;
+
+    margin: 60px auto 0;
+
+    padding: 14px 0;
+
+    border: 1px solid #222;
+
+    background: transparent;
+
+    color: #222;
+
+    font-size: 13px;
+
+    letter-spacing: 3px;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.contact-submit:hover {
+    background: #222;
+
+    color: #fff;
+}
+
 /* ========================================
    SERVICE PREVIEW GRID
 ======================================== */
@@ -1090,6 +1182,45 @@ footer a:hover {
         font-size: 15px;
         line-height: 2;
     }
+
+    .contact-or {
+    margin: 50px 0 35px;
+
+    font-size: 12px;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    font-size: 13px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 12px;
+
+    font-size: 16px;
+}
+
+.form-group textarea {
+    min-height: 180px;
+}
+
+.contact-submit {
+    width: 100%;
+
+    max-width: 260px;
+
+    margin-top: 40px;
+
+    font-size: 12px;
+}
 
     /* ========================================
        PRIVACY

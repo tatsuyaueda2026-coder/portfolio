@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8BSDMQ6NK"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-      gtag('config', 'G-Y8BSDMQ6NK');
+        gtag('config', 'G-Y8BSDMQ6NK');
     </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CONTACT | TATSUYA UEDA</title>
+
+    <meta name="description" content="撮影のご相談・ご依頼はこちらからお気軽にお問い合わせください。">
+
+    <link rel="canonical" href="https://tatsuyaueda2026-coder.github.io/portfolio/contact.html">
+
     <link rel="icon" type="image/jpeg" href="images/top/favicon.jpg">
+
     <meta property="og:type" content="website">
-    <meta property="og:title" content="TATSUYA UEDA | Photographer">
-    <meta property="og:description" content="東京を拠点に、作家・職人・小規模店舗の営みや空気感を撮影しています。">
-    <meta property="og:url" content="https://tatsuyaueda2026-coder.github.io/portfolio/"> 
-    <link rel="canonical" href="https://tatsuyaueda2026-coder.github.io/portfolio/">
+    <meta property="og:title" content="CONTACT | TATSUYA UEDA">
+    <meta property="og:description" content="撮影のご相談・ご依頼はこちらからお気軽にお問い合わせください。">
+    <meta property="og:url" content="https://tatsuyaueda2026-coder.github.io/portfolio/contact.html">
     <meta property="og:image" content="https://tatsuyaueda2026-coder.github.io/portfolio/images/top/ogp.jpg">
     <meta property="og:site_name" content="TATSUYA UEDA">
     <meta property="og:locale" content="ja_JP">
 
     <meta name="twitter:card" content="summary_large_image">
-    <title>TATSUYA UEDA</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.css">
 </head>
 
 <body>
@@ -63,13 +71,73 @@
         をご確認ください。
     </p>
 
-    <a
-        href="https://www.instagram.com/ttyued?igsh=MXZnYmhuM2h6cTIxYw%3D%3D&utm_source=qr"
-        target="_blank"
-        class="contact-button"
-    >
+    <a href="https://www.instagram.com/ttyued?igsh=MXZnYmhuM2h6cTIxYw%3D%3D&utm_source=qr"
+       target="_blank"
+       class="contact-button">
         Instagram DM
     </a>
+
+    <p class="contact-or">または</p>
+
+    <form
+        action="https://formsubmit.co/tatsuyaueda2026@gmail.com"
+        method="POST"
+        class="contact-form">
+
+        <!-- FormSubmit設定 -->
+        <input type="hidden" name="_subject" value="ホームページからお問い合わせが届きました">
+        <input type="hidden" name="_next" value="https://tatsuyaueda2026-coder.github.io/portfolio/thanks.html">
+        <input type="hidden" name="_captcha" value="true">
+
+        <!-- スパム対策（表示されません） -->
+        <input
+            type="text"
+            name="_honey"
+            style="display:none">
+
+        <div class="form-group">
+            <label for="name">
+                お名前
+            </label>
+
+            <input
+                type="text"
+                id="name"
+                name="お名前"
+                required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">
+                メールアドレス
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                name="メールアドレス"
+                required>
+        </div>
+
+        <div class="form-group">
+            <label for="message">
+                お問い合わせ内容
+            </label>
+
+            <textarea
+                id="message"
+                name="お問い合わせ内容"
+                rows="8"
+                required></textarea>
+        </div>
+
+        <button
+            type="submit"
+            class="contact-submit">
+            送信する
+        </button>
+
+    </form>
 
 </section>
 
@@ -81,30 +149,16 @@
 
     <div class="footer-links">
         <a href="privacy.html">Privacy Policy</a>
-        <a href="https://www.instagram.com/ttyued?igsh=MXZnYmhuM2h6cTIxYw%3D%3D&utm_source=qr" target="_blank">
+
+        <a
+            href="https://www.instagram.com/ttyued?igsh=MXZnYmhuM2h6cTIxYw%3D%3D&utm_source=qr"
+            target="_blank"
+            rel="noopener noreferrer">
             Instagram
         </a>
     </div>
 
 </footer>
-
-<script type="module">
-
-import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe/dist/photoswipe-lightbox.esm.js';
-
-const lightbox = new PhotoSwipeLightbox({
-
-    gallery: '.gallery',
-
-    children: 'a',
-
-    pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe/dist/photoswipe.esm.js')
-
-});
-
-lightbox.init();
-
-</script>
 
 </body>
 </html>
