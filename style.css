@@ -85,7 +85,7 @@ nav a:hover {
 
 .fv img {
     display: block;
-    width: 86%;
+    width: 69%;
 }
 
 /* ========================================
@@ -171,8 +171,10 @@ nav a:hover {
 
 .works-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+
+    margin-top: 80px;
 }
 
 .works-grid a {
@@ -1044,6 +1046,11 @@ footer a:hover {
 
         font-size: 15px;
         line-height: 2;
+    }
+
+    .works-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
     }
 
     /* ========================================
